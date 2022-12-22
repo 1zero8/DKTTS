@@ -91,7 +91,7 @@ class gTTS:
 
     """
 
-    GOOGLE_TTS_MAX_CHARS = 100  # Max characters the Google TTS API takes at a time
+    GOOGLE_TTS_MAX_CHARS = 1000 # Max characters the Google TTS API takes at a time
     GOOGLE_TTS_HEADERS = {
         "Referer": "http://translate.google.com/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) "
